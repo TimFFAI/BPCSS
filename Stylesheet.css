@@ -24,8 +24,8 @@ Globals
   --ocean-light: #c8dbf4;
   --sky: #f0f9ff;
 
-  --indigo-500: #6366f1;
-  --indigo-600: #4f46e5;
+  --indigo-500: #1796f8;
+  --indigo-600: #147cff;
 
   --spacing-x-small: 0.125rem;
   --spacing-small: 0.25rem;
@@ -77,6 +77,8 @@ Layout
   display: -ms-flexbox;
   display: flex;
   padding: var(--spacing-large);
+  justify-content: center;
+  align-items: center;
 }
 
 /* 
