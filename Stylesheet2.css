@@ -68,6 +68,7 @@ Layout
   bottom: 0;
   right: 0;
   max-width: 425px !important;
+height: 100%;
   width: 100%;
   visibility: hidden;
   -webkit-box-orient: vertical;
