@@ -42,7 +42,7 @@
 
 .bpw-layout {
   width: 500px !important;
-  height: 80vh; /* Updated height */
+  height: 80vh;
   border: 1px;
   border-radius: 10px;
   right: 10%;
@@ -102,7 +102,7 @@ a {
 }
 
 .bpw-chat-container {
-  background-color: #000000;
+  background-color: #1796f8; /* Updated background color */
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
