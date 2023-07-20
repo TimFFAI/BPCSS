@@ -1,13 +1,4 @@
-html {
-  font-size: 16px;
-}
-
-p, .bpw-from-bot > div, #input-message {
-direction: ltr;
-}
-
-
-  .generated {
+ .generated {
     color: #ffffff;
   }
 
