@@ -1,4 +1,4 @@
- .generated {
+.generated {
     color: #ffffff;
   }
 
@@ -228,3 +228,20 @@
   .bpw-send-button:not(:disabled):hover {
     background-color: var(--theme-primary-hover);
   }
+
+.bpw-header-subtitle {
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--zinc-400);
+}
+
+.bpw-header-container {
+  border-radius: var(--spacing-large);
+  background: var(--white);
+  border: 1px solid var(--zinc-200);
+  padding: var(--spacing-large) var(--spacing-x-large);
+  /* Add additional properties for height and box-sizing */
+  height: auto;
+  box-sizing: border-box;
+}
