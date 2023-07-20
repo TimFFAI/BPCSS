@@ -87,7 +87,7 @@ Header
 .bpw-header-container {
   border-radius: var(--spacing-large);
   background: #4e4e4e;
-  border: 1px solid var(--zinc-200);
+  border: 1px solid #4e4e4e;
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
 }
@@ -112,7 +112,7 @@ Header
 .bpw-header-name {
   font-weight: 500;
   font-size: 0.875rem;
-  color: var(--zinc-600);
+  color: #ffffff;
 }
 
 .bpw-header-subtitle {
@@ -196,10 +196,10 @@ Composer
 }
 
 .bpw-composer textarea {
-  background: #1796f8;
-  border: 1px solid var(--zinc-200);
+  background: #ffffff;
+  border: 1px solid #ffffff;
   border-radius: var(--spacing-medium);
-  color: #1796f8;
+  color: #000000;
   font-family: inherit;
   font-size: 0.75rem;
   height: 54px;
@@ -211,7 +211,7 @@ Composer
 }
 
 .bpw-composer textarea:focus {
-  border-color: var(--zinc-300);
+  border-color:  #ffffff;
 }
 
 .bpw-composer.rtl .bpw-composer-inner textarea {
@@ -229,7 +229,7 @@ Composer
 .bpw-send-button:disabled,
 .bpw-send-button:disabled:hover {
   opacity: 0.4;
-  background-color: var(--theme-primary);
+  background-color: #1796f8;
   cursor: default;
 }
 
@@ -244,7 +244,7 @@ Composer
   justify-content: center;
   align-items: center;
   border-radius: var(--spacing-medium);
-  background-color: var(--theme-primary);
+  background-color:  #1796f8;
   padding: 20px;
   width: 24px;
   height: 24px;
@@ -257,7 +257,7 @@ Composer
 }
 
 .bpw-send-button:not(:disabled):hover {
-  background-color: var(--theme-primary-hover);
+  background-color:  #1796f8;
 }
 
 .bpw-voice-recorder {
