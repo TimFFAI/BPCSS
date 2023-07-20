@@ -63,11 +63,11 @@ Layout
   border: none;
   border-radius: var(--spacing-large);
   background-color: #1796f8;
-  position: fixed;
+  position: responsive;
   bottom: 0;
   right: 0;
   width: 100%;
-  height: 90vh;
+  height: 100%;
   visibility: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
