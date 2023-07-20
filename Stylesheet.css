@@ -62,12 +62,12 @@ Layout
 .bpw-layout {
   border: none;
   border-radius: var(--spacing-large);
-  background-color: #1796f8;
+  background-color: var(--bg);
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 425px !important;
-  height: 90vh;
+  width: 100% !important;
+  height: 100%;
   visibility: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -86,7 +86,7 @@ Header
 */
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: #4e4e4e;
+  background: var(--white);
   border: 1px solid var(--zinc-200);
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
@@ -121,7 +121,7 @@ Header
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 0.75rem;
-  color: #ffffff;
+  color: var(--zinc-400);
 }
 
 .bpw-header-unread {
@@ -158,7 +158,7 @@ Header
 
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: #ffffff !important;
+  fill: var(--shark);
   transition: fill 0.3s;
 }
 
@@ -196,10 +196,10 @@ Composer
 }
 
 .bpw-composer textarea {
-  background: #1796f8;
+  background: var(--white);
   border: 1px solid var(--zinc-200);
   border-radius: var(--spacing-medium);
-  color: #1796f8;
+  color: var(--zinc-900);
   font-family: inherit;
   font-size: 0.75rem;
   height: 54px;
@@ -301,7 +301,7 @@ Footer
   font-size: 0.75rem;
   line-height: 1.25;
   border-radius: var(--spacing-large);
-  color: #ffffff;
+  color: var(--shark);
   padding: var(--spacing-medium);
   transition: border 0.3s, background 0.3s, color 0.3s;
 }
@@ -316,14 +316,14 @@ Footer
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   border-color: var(--theme-primary-hover);
-  background-color: #000000;
-  color: #ffffff;
+  background-color: var(--theme-primary);
+  color: white;
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #ffffff;
+  background-color: var(--zinc-900);
   border-color: black;
-  color: #000000;
+  color: white;
 }
 
 .bpw-bubble-session_reset {
@@ -400,7 +400,7 @@ Footer
 }
 
 .bpw-button-alt {
-  background-color: #e6e6e6;
+  background-color: var(--main-bg-color);
   font-size: 1rem;
   padding: 0.4rem 0.8rem;
   min-width: 5rem;
@@ -409,7 +409,7 @@ Footer
 
 .bpw-button:hover {
   border: solid 1px var(--theme-primary-hover);
-  background-color: #ffffff;
+  background-color: var(--theme-primary);
 }
 
 .bpw-button:disabled {
@@ -709,7 +709,7 @@ Footer
 
 .bpw-keyboard-single-choice {
   border: none;
-  background-color: #1796f8;
+  background-color: var(--bg);
   padding: 0;
 }
 
@@ -1078,7 +1078,7 @@ Footer
   white-space: pre-wrap;
   font-size: 1rem;
   direction: ltr;
-  background-color: #000000;
+  background-color: white;
 }
 
 .bpw-typing-bubble:nth-child(1) {
