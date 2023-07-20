@@ -1,4 +1,4 @@
-.generated {
+ .generated {
     color: #ffffff;
   }
 
@@ -13,14 +13,14 @@
   
   .bpw-header-container {
     margin: 10px 10px 0px 10px;
-    background: #323232;
+    background: #4e4e4e;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
 .bpw-typing-bubble{
-  background: #1796f8;
+  background: #000000;
 }
 
   .bpw-chat-bubble-content {
@@ -39,7 +39,7 @@
   }
   
   .bpw-layout {
-    width: 432px !important;
+    width: 425px !important;
     border: 1px;
     height: 90vh;
     border-radius: 10px;
@@ -63,7 +63,7 @@
     fill: #ffffff !important;
   }
   .bpw-header-container {
-    color: #323232;
+    color: #4e4e4e;
   }
 
   #input-message::placeholder {
@@ -76,7 +76,7 @@
   }
   .bpw-button, .bpw-button-alt{
     background-color: #e6e6e6;
-    color: #1796f8;
+    color: #000000;
   }
   .bpw-button {
     border-radius: 10px;
@@ -84,7 +84,7 @@
   }
   .bpw-button:hover, .bpw-button-alt:hover{
     background-color: #ffffff;
-    color: #1796f8;
+    color: #000000;
   }
 
   a{
@@ -100,11 +100,11 @@
 
   .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
     background-color: #ffffff;
-    color: #1796f8;
+    color: #000000;
   }
 
   .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #323232;
+    background-color: #000000;
     color: #ffffff;
   }
 
@@ -228,20 +228,3 @@
   .bpw-send-button:not(:disabled):hover {
     background-color: var(--theme-primary-hover);
   }
-
-.bpw-header-subtitle {
-  overflow: hidden;
-  font-weight: 300;
-  font-size: 12px;
-  color: var(--zinc-400);
-}
-
-.bpw-header-container {
-  border-radius: var(--spacing-large);
-  background: var(--white);
-  border: 1px solid var(--zinc-200);
-  padding: var(--spacing-large) var(--spacing-x-large);
-  /* Add additional properties for height and box-sizing */
-  height: auto;
-  box-sizing: border-box;
-}
