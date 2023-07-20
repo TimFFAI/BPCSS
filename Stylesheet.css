@@ -35,9 +35,13 @@
   .bpw-date-container,
   .bpw-header-name,
   .bpw-header-subtitle {
-    color: #ffffff;
-  }
-  
+  color: #ffffff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 12px;
+}
   .bpw-layout {
     width: 432px !important;
     border: 1px;
@@ -229,21 +233,10 @@
     background-color: var(--theme-primary-hover);
   }
 
-.bpw-header-subtitle {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  font-weight: 300;
-  font-size: 12px;
-  color: var(--zinc-400);
-}
-
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: var(--white);
   border: 1px solid var(--zinc-200);
   padding: var(--spacing-large) var(--spacing-x-large);
-  /* Add additional properties for height and box-sizing */
   height: auto;
   box-sizing: border-box;
 }
