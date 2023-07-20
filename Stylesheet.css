@@ -1,4 +1,4 @@
- .generated {
+.generated {
     color: #ffffff;
   }
 
@@ -7,24 +7,24 @@
   }
 
   .bpw-new-messages-indicator{
-    background-color: #4b4b4b;
+    background-color: #ffffff;
     color: #ffffff;
   }
   
   .bpw-header-container {
     margin: 10px 10px 0px 10px;
-    background: #4e4e4e;
+    background: #323232;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
 }
 
 .bpw-typing-bubble{
-  background: #ffffff;
+  background: #1796f8;
 }
 
   .bpw-chat-bubble-content {
-    background-color: #4b4b4b;
+    background-color: #ffffff;
     border-radius: 3px;
     border: 1px transparent;
   }
@@ -39,9 +39,9 @@
   }
   
   .bpw-layout {
-    width: 500px !important;
+    width: 432px !important;
     border: 1px;
-    height: 80vh;
+    height: 90vh;
     border-radius: 10px;
     right: 10%;
     bottom: 0%;
@@ -63,7 +63,7 @@
     fill: #ffffff !important;
   }
   .bpw-header-container {
-    color: #4e4e4e;
+    color: #323232;
   }
 
   #input-message::placeholder {
@@ -71,20 +71,20 @@
   }
 
   .bpw-keyboard-single-choice{
-    background-color: #000000;
+    background-color: #1796f8;
     border: none;
   }
   .bpw-button, .bpw-button-alt{
-    background-color: #323232;
-    color: #ffffff;
+    background-color: #e6e6e6;
+    color: #1796f8;
   }
   .bpw-button {
     border-radius: 10px;
     border:none;
   }
   .bpw-button:hover, .bpw-button-alt:hover{
-    background-color: #4b4b4b;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #1796f8;
   }
 
   a{
@@ -92,37 +92,39 @@
     text-decoration: underline;
   }
 
+
+
   .bpw-chat-container {
-    background-color: #000000;
+    background-color: #1796f8;
   }
 
   .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #4b4b4b;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #1796f8;
   }
 
   .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-    background-color: #000000;
+    background-color: #323232;
     color: #ffffff;
   }
 
   .bpw-composer {
-    background-color: #000000;
-    border-top: 1px solid #4b4b4b;
+    background-color: #1796f8;
+    border-top: 1px solid #ffffff;
   }
 
   .bpw-chat-container::-webkit-scrollbar {
     width: 10px;
-    background-color: #000000;
+    background-color: #1796f8;
   }
 
   .bpw-chat-container::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #1796f8;
   }
 
   .bpw-bot-avatar img,
   .bpw-bot-avatar svg {
-    background: #000000;
+    background: #ffffff;
     background-size: cover;
     border: 3px solid #ffffff;
   }
@@ -136,7 +138,7 @@
   }
 
   ::-webkit-scrollbar-thumb{
-    background-color:#000000;
+    background-color:#1796f8;
     border-radius:1rem;
     border: 0.5rem solid transparent;
 
@@ -154,7 +156,7 @@
 
   .bpw-chat-container {
     scrollbar-width: thin;
-    scrollbar-color: #4b4b4b #000000;
+    scrollbar-color: #ffffff #1796f8;
     border: none;
   }
 
@@ -177,7 +179,7 @@
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    background:  #000000;
+    background:  #1796f8;
     font-size: 16px;
     border-top: none;
     border-bottom-right-radius: 10px;
@@ -226,4 +228,3 @@
   .bpw-send-button:not(:disabled):hover {
     background-color: var(--theme-primary-hover);
   }
-
