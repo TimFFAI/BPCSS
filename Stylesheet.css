@@ -39,12 +39,12 @@
   }
   
   .bpw-layout {
-    width: 360px !important;
+    width: 500px !important;
     border: 1px;
-    height: 60vh;
+    height: 80vh;
     border-radius: 10px;
     right: 10%;
-    bottom: 5%;
+    bottom: 0%;
   }
 
   @media screen and (max-device-width: 767px) {
@@ -91,8 +91,6 @@
     color: #ffffff;
     text-decoration: underline;
   }
-
-
 
   .bpw-chat-container {
     background-color: #000000;
@@ -171,7 +169,7 @@
   }
 
   .bpw-chat-container::-moz-scrollbar-thumb {
-    background-color:#000000;
+    background-color:#1796f8;
     border:none;
   }
 
