@@ -63,11 +63,12 @@ Layout
   border: none;
   border-radius: var(--spacing-large);
   background-color: #1796f8;
-  position: fixed;
+  position: relative;
   bottom: 0;
   right: 0;
-  width: 425px !important;
-  height: 90vh;
+  max-width: 425px !important;
+  width: 100%;
+  height: 100%;
   visibility: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -77,6 +78,7 @@ Layout
   display: -ms-flexbox;
   display: flex;
   padding: var(--spacing-large);
+  overflow: hidden;
 }
 
 /* 
@@ -89,7 +91,7 @@ Header
   background: #4e4e4e;
   border: 1px solid #4e4e4e;
   border-radius: var(--spacing-medium);
-  padding: var(--spacing-large) var(--spacing-x-large);
+  padding: 1rem;
 }
 
 .bpw-header-title-flexbox {
@@ -107,6 +109,7 @@ Header
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+   justify-content: center;
 }
 
 .bpw-header-name {
@@ -181,7 +184,7 @@ Composer
 }
 
 .bpw-composer-inner {
-  padding: 0;
+  padding: 1rem;
   line-height: 0;
   position: relative;
 
@@ -202,8 +205,8 @@ Composer
   color: #000000;
   font-family: inherit;
   font-size: 0.75rem;
-  height: 54px;
-  padding: 19px var(--spacing-large) var(--spacing-large);
+  height: 60px;
+  padding: 0.5rem;
   resize: none;
   transition: border 0.2s;
   width: 100%;
@@ -245,9 +248,9 @@ Composer
   align-items: center;
   border-radius: var(--spacing-medium);
   background-color:  #1796f8;
-  padding: 20px;
-  width: 24px;
-  height: 24px;
+  padding: 0.5rem;
+  width: 30px;
+  height: 30px;
   color: transparent;
   cursor: pointer;
   background-image: url('data:image/svg+xml,%3Csvg%20width%3D%2217%22%20height%3D%2220%22%20viewBox%3D%220%200%2017%2020%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20d%3D%22M1.77152%201.04207L15.5347%209.13807C16.192%209.52472%2016.192%2010.4753%2015.5347%2010.8619L8.5%2015L1.70485%2018.9971C0.998111%2019.4129%200.118918%2018.8481%200.203121%2018.0325L0.811331%2012.1412C0.85993%2011.6705%201.23186%2011.2983%201.70256%2011.2493L8.21533%2010.5717C9.32302%2010.4565%209.44138%208.88961%208.36357%208.60928L1.54478%206.83574C1.15164%206.73349%200.859426%206.40357%200.805392%206.00096L0.27339%202.03702C0.162447%201.21039%201.05263%200.619195%201.77152%201.04207Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E%0A') !important;
