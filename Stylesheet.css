@@ -316,8 +316,8 @@ Footer
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  border-color: var(--theme-primary-hover);
-  background-color: var(--theme-primary);
+  border-color: #0f0f0f;
+  background-color: #0f0f0f;
   color: white;
 }
 
