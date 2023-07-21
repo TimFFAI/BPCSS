@@ -90,12 +90,10 @@ Header
 */
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: #4e4e4e;
-  border: 1px solid #000000;
+  background: var(--white);
+  border: 1px solid var(--zinc-200);
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
-  width: 60%; /* Set the desired width, adjust as needed */
-  margin: 0 auto; /* Center the header container horizontally within the layout */
 }
 
 .bpw-header-title-flexbox {
