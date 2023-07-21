@@ -233,7 +233,9 @@ Composer
   background-color: var(--theme-primary);
   cursor: default;
 }
-
+.bpw-send-buttons button {
+  width: 120px;
+}
 .bpw-send-buttons {
   display: flex;
   flex-direction: row;
