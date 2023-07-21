@@ -322,7 +322,7 @@ Footer
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: var(--zinc-900);
+  background-color: black;
   border-color: black;
   color: white;
 }
@@ -338,7 +338,7 @@ Footer
 }
 
 .bpw-bubble-session_reset .bpw-chat-bubble-content {
-  color: var(--shark);
+  color: black;
   background: none !important;
   border: none;
   border-radius: 0;
@@ -351,7 +351,7 @@ Footer
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #0f0f0f;
   border-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -364,7 +364,7 @@ Footer
 .bpw-bot-avatar svg {
   width: 30px;
   height: 30px;
-  background: #ffffff;
+  background: #0f0f0f;
   border: none;
   border-radius: 50%;
 }
@@ -388,7 +388,7 @@ Footer
   background: none;
   font-size: 0.75rem;
   line-height: 40px;
-  color: var(--zinc-900);
+  color: #0f0f0f;
   margin-right: 12px;
   cursor: pointer;
   min-height: 40px;
@@ -549,7 +549,7 @@ Footer
   font-size: 0.75rem;
   font-weight: 400;
   margin-bottom: var(--spacing-large) 0 var(--spacing-x-large);
-  color: var(--zinc-600);
+  color: #ffffff;
   text-align: center;
 }
 
