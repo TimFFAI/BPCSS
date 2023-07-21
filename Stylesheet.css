@@ -94,6 +94,8 @@ Header
   border: 1px solid #000000;
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
+  width: 90%; /* Set the desired width, adjust as needed */
+  margin: 0 auto; /* Center the header container horizontally within the layout */
 }
 
 .bpw-header-title-flexbox {
