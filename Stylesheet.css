@@ -60,12 +60,6 @@ Layout
 ===================
 */
 
-.webchatIframe {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 .bpw-layout {
   border: none;
   border-radius: var(--spacing-large);
