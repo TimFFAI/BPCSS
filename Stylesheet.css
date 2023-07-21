@@ -94,7 +94,7 @@ Header
   border: 1px solid #000000;
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
-  width: 100%; /* Set the desired width, adjust as needed */
+  width: 60%; /* Set the desired width, adjust as needed */
   margin: 0 auto; /* Center the header container horizontally within the layout */
 }
 
@@ -209,10 +209,10 @@ Composer
   font-family: inherit;
   font-size: 0.75rem;
   height: 54px;
+   width: 120px;
   padding: 19px var(--spacing-large) var(--spacing-large);
   resize: none;
   transition: border 0.2s;
-  width: 100%;
   margin-right: var(--spacing-small);
 }
 
