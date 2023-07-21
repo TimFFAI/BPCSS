@@ -24,8 +24,8 @@ Globals
   --ocean-light: #c8dbf4;
   --sky: #f0f9ff;
 
-  --indigo-500: #1796f8;
-  --indigo-600: #147cff;
+  --indigo-500: #1d97f5;
+  --indigo-600: #1d81f5;
 
   --spacing-x-small: 0.125rem;
   --spacing-small: 0.25rem;
@@ -62,7 +62,7 @@ Layout
 .bpw-layout {
   border: none;
   border-radius: var(--spacing-large);
-  background-color: var(--bg);
+  background-color: #1d97f5;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -77,8 +77,6 @@ Layout
   display: -ms-flexbox;
   display: flex;
   padding: var(--spacing-large);
-  justify-content: center;
-  align-items: center;
 }
 
 /* 
@@ -88,8 +86,8 @@ Header
 */
 .bpw-header-container {
   border-radius: var(--spacing-large);
-  background: var(--white);
-  border: 1px solid var(--zinc-200);
+  background: #4e4e4e;
+  border: 1px solid #000000;
   border-radius: var(--spacing-medium);
   padding: var(--spacing-large) var(--spacing-x-large);
 }
@@ -114,7 +112,7 @@ Header
 .bpw-header-name {
   font-weight: 500;
   font-size: 0.875rem;
-  color: var(--zinc-600);
+  color: #ffffff;
 }
 
 .bpw-header-subtitle {
@@ -123,7 +121,7 @@ Header
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 0.75rem;
-  color: var(--zinc-400);
+  color: #ffffff;
 }
 
 .bpw-header-unread {
@@ -146,13 +144,13 @@ Header
   background: none;
   padding: 0;
   margin: 0;
-  color: var(--shark);
+  color: #ffffff;
   line-height: 0;
   margin-left: var(--spacing-large);
   text-align: right;
   vertical-align: middle;
   cursor: pointer;
-  fill: var(--shark);
+  fill: #ffffff;
   width: 16px;
   height: 16px;
   transition: fill 0.3s;
@@ -160,14 +158,14 @@ Header
 
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: var(--shark);
+  fill: #ffffff;
   transition: fill 0.3s;
 }
 
 .bpw-header-icon:hover,
 .bpw-header-icon:hover svg,
 .bpw-header-icon:hover svg path {
-  fill: var(--reef);
+  fill: #ffffff;
 }
 
 /* 
@@ -352,7 +350,7 @@ Footer
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--zinc-900);
+  background-color: #ffffff;
   border-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -365,7 +363,7 @@ Footer
 .bpw-bot-avatar svg {
   width: 30px;
   height: 30px;
-  background: var(--zinc-900);
+  background: #ffffff;
   border: none;
   border-radius: 50%;
 }
@@ -805,249 +803,7 @@ Footer
   width: 100%;
 }
 
-/* Custom styling for the login form*/
-/* .bpw-form-container {} */
 
-.bpw-form-container label {
-  display: block;
-}
-
-/* Highlight special actions, for example displaying the status after using a custom component */
-.bpw-special-action {
-  opacity: 0.6;
-}
-
-/* Conversation List */
-.bpw-convo-list {
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.bpw-convo-add-btn {
-  background: transparent;
-  border: 2px solid;
-  border-radius: 50%;
-  float: right;
-  margin-right: 15px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  cursor: pointer;
-}
-.bpw-convo-add-btn:hover {
-  background-color: rgba(0, 0, 0, 0.03);
-}
-.bpw-convo-item {
-  padding-left: 15px;
-  height: 4.7rem;
-  border-bottom: 1px solid #eee;
-  cursor: pointer;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.bpw-convo-item:hover {
-  background-color: #fafafa;
-}
-
-.bpw-convo-item .bpw-title {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-}
-
-.bpw-convo-item .bpw-align-right {
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding-right: 1rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.bpw-convo-item .bpw-convo-preview {
-  font-size: 0.875rem;
-  color: #9a9a9a;
-  max-width: 15rem;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-}
-
-.bpw-convo-item .bpw-date {
-  text-align: right;
-  font-size: 0.875rem;
-  color: #9a9a9a;
-  position: absolute;
-  right: 0;
-}
-
-.bpw-floating-button {
-  float: right;
-  fill: rgb(255, 255, 255);
-  cursor: pointer;
-  outline: none;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 1;
-  width: 52px;
-  height: 52px;
-  cursor: pointer;
-  border-radius: 0px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
-  overflow: hidden;
-
-  padding: 0;
-  border: none;
-  background-clip: padding-box;
-
-  transition: width 1s, height 1s;
-}
-
-.bpw-floating-button i {
-  transition: opacity 0.3s ease;
-  opacity: 1;
-  fill: inherit;
-  stroke: inherit;
-  width: 100%;
-  padding: 0;
-  line-height: 0;
-}
-
-.bpw-floating-button .bpw-floating-button-unread {
-  display: block;
-  position: absolute;
-  right: 2px;
-  bottom: 54px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  line-height: 20px;
-
-  color: #fff;
-  background-color: #ff5d5d;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
-}
-
-/** BOT INFORMATION PAGE - START */
-.bpw-botinfo-summary {
-  margin-top: -32px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 4px 5px -5px var(--gray);
-  text-align: center;
-}
-
-.bpw-botinfo-summary .bpw-bot-avatar.default {
-  margin: 0 auto var(--spacing-medium);
-}
-
-.bpw-botinfo-container {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 100%;
-  text-align: center;
-  color: #1e1e1e;
-  overflow-y: auto;
-  height: 100%;
-}
-
-.bpw-botinfo-cover-picture-wrapper {
-  height: 50%;
-  overflow: hidden;
-}
-
-.bpw-botinfo-cover-picture {
-  width: 100%;
-  object-fit: cover;
-}
-
-.bpw-botinfo-container button,
-.bpw-botinfo-container a {
-  font-size: 0.9rem;
-  color: rgb(102, 102, 102);
-  text-decoration: none;
-}
-
-.bpw-botinfo-description {
-  margin-top: 0.4em;
-  margin-bottom: 1em;
-}
-
-.bpw-botinfo-summary h3 {
-  margin: 0;
-}
-
-.bpw-botinfo-links {
-  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-}
-
-.bpw-botinfo-link {
-  padding-left: 25%;
-  display: flex;
-  margin: 20px 0;
-}
-
-.bpw-botinfo-link i {
-  margin-right: 10px;
-}
-
-.bpw-botinfo-preferred-language {
-  margin: 20px 0;
-}
-
-.bpw-botinfo-preferred-language select {
-  margin-left: 10px;
-}
-
-.bpw-botinfo-terms {
-  padding: 0px 20px;
-  text-align: left;
-}
-
-.bpw-botinfo-terms a {
-  display: inline-block;
-  width: 100%;
-  line-height: 2.5;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
-}
-
-.bpw-botinfo-start-button {
-  font: inherit;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
-  border-radius: 20px;
-  line-height: 24px;
-  padding: 5px 10px;
-  margin-top: 25px;
-  border: 1px solid rgb(100, 100, 100);
-}
-
-.bpw-botinfo-start-button:focus {
-  border: 1px solid black;
-  color: black;
-}
 
 /** BOT INFORMATION PAGE - END */
 
