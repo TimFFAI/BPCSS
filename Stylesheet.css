@@ -64,7 +64,7 @@ Layout
   border: none;
   border-radius: var(--spacing-large);
   background-color: #1d97f5;
-  position: relative;
+  position: fixed;
   bottom: 0;
   right: 0;
   width: 100% !important;
