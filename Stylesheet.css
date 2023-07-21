@@ -234,7 +234,7 @@ Composer
   cursor: default;
 }
 .bpw-send-buttons button {
-  width: 120px;
+  width: 60px;
 }
 .bpw-send-buttons {
   display: flex;
