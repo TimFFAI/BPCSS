@@ -959,7 +959,16 @@ Footer
     width: 80px;
     height: 80px;
   }
-
+  
+  .bpw-layout {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0; /* Optionally remove the border radius on mobile */
+  }
+  
   .bpw-bot-avatar img,
   .bpw-bot-avatar svg {
     width: 80px;
