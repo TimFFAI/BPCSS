@@ -112,7 +112,7 @@ Header
 
 .bpw-header-name {
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1.275rem;
   color: #ffffff;
 }
 
@@ -121,7 +121,7 @@ Header
   white-space: normal;
   text-overflow: ellipsis;
   font-weight: 300;
-  font-size: 0.75rem;
+  font-size: 1rem;
   color: #ffffff;
 }
 
