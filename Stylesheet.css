@@ -956,8 +956,8 @@ Footer
 
 @media (max-device-width: 768px) {
   .bpw-bot-avatar {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
   
   .bpw-layout {
