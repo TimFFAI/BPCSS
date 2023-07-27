@@ -118,7 +118,7 @@ Header
 
 .bpw-header-subtitle {
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
   text-overflow: ellipsis;
   font-weight: 300;
   font-size: 0.75rem;
